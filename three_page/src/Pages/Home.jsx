@@ -2,8 +2,8 @@ import React from 'react'
 
 function Home() {
  
-  function myFunc(name){
-    console.log(name)
+  function myFunc(){
+    console.log()
   }
 
   const  myFunc2 = ()=>{
@@ -14,8 +14,8 @@ function Home() {
   return (
     <div>Home page
     <br/>
-    <div id='div' onMouseOver={myFunc2} className='bg-red-800 f-50 w-50'>arun</div>
-    <button onClick={()=>{myFunc('Arun')}} className=' border border-black cursor-pointer'>click me</button>
+    <div id='div' onMouseOver={myFunc2} className='bg-red-800 f-screen w-full'>nice</div>
+    <button onClick={myFunc} className=' border border-black cursor-pointer'>click me</button>
     </div>
   )
 }
